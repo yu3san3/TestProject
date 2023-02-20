@@ -1,2 +1,2 @@
 # TestProject
-GitHubにコミットするテストです。
+試しにGitHubにコミットしてみたプロジェクトです。
