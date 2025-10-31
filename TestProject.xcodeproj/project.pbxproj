@@ -3,24 +3,16 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 70;
 	objects = {
-
-/* Begin PBXBuildFile section */
-		EB9F4EA02987DF09001AA724 /* TestProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9F4E9F2987DF09001AA724 /* TestProjectApp.swift */; };
-		EB9F4EA22987DF09001AA724 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9F4EA12987DF09001AA724 /* ContentView.swift */; };
-		EB9F4EA42987DF0C001AA724 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB9F4EA32987DF0C001AA724 /* Assets.xcassets */; };
-		EB9F4EA82987DF0C001AA724 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB9F4EA72987DF0C001AA724 /* Preview Assets.xcassets */; };
-/* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EB9F4E9C2987DF09001AA724 /* TestProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		EB9F4E9F2987DF09001AA724 /* TestProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestProjectApp.swift; sourceTree = "<group>"; };
-		EB9F4EA12987DF09001AA724 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		EB9F4EA32987DF0C001AA724 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		EB9F4EA52987DF0C001AA724 /* TestProject.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TestProject.entitlements; sourceTree = "<group>"; };
-		EB9F4EA72987DF0C001AA724 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		EFA826192EB47DB200BB5782 /* TestProject */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = TestProject; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		EB9F4E992987DF09001AA724 /* Frameworks */ = {
@@ -36,7 +28,7 @@
 		EB9F4E932987DF09001AA724 = {
 			isa = PBXGroup;
 			children = (
-				EB9F4E9E2987DF09001AA724 /* TestProject */,
+				EFA826192EB47DB200BB5782 /* TestProject */,
 				EB9F4E9D2987DF09001AA724 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,26 +39,6 @@
 				EB9F4E9C2987DF09001AA724 /* TestProject.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		EB9F4E9E2987DF09001AA724 /* TestProject */ = {
-			isa = PBXGroup;
-			children = (
-				EB9F4E9F2987DF09001AA724 /* TestProjectApp.swift */,
-				EB9F4EA12987DF09001AA724 /* ContentView.swift */,
-				EB9F4EA32987DF0C001AA724 /* Assets.xcassets */,
-				EB9F4EA52987DF0C001AA724 /* TestProject.entitlements */,
-				EB9F4EA62987DF0C001AA724 /* Preview Content */,
-			);
-			path = TestProject;
-			sourceTree = "<group>";
-		};
-		EB9F4EA62987DF0C001AA724 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				EB9F4EA72987DF0C001AA724 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +55,9 @@
 			buildRules = (
 			);
 			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				EFA826192EB47DB200BB5782 /* TestProject */,
 			);
 			name = TestProject;
 			productName = TestProject;
@@ -127,8 +102,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB9F4EA82987DF0C001AA724 /* Preview Assets.xcassets in Resources */,
-				EB9F4EA42987DF0C001AA724 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,8 +112,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB9F4EA22987DF09001AA724 /* ContentView.swift in Sources */,
-				EB9F4EA02987DF09001AA724 /* TestProjectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
